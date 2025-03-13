@@ -1,0 +1,21 @@
+2025-03-13 10:48:22,327 - youtube_scraper - INFO - Archivo de configuración creado: config.json
+2025-03-13 11:21:11,247 - youtube_scraper - ERROR - Archivo de credenciales no encontrado: client_secrets.json
+2025-03-13 11:21:11,249 - youtube_scraper - ERROR - Error en el proceso de autenticación: Archivo de credenciales no encontrado: client_secrets.json
+2025-03-13 11:21:11,250 - youtube_scraper - ERROR - Error en la ejecución principal: Archivo de credenciales no encontrado: client_secrets.json
+Traceback (most recent call last):
+  File "C:\Users\DELL G5\Desktop\scrapper\scrapperv1.py", line 437, in main
+    youtube, youtube_analytics = get_authenticated_services(config)
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\DELL G5\Desktop\scrapper\scrapperv1.py", line 134, in get_authenticated_services
+    raise FileNotFoundError(f"Archivo de credenciales no encontrado: {client_secrets_path}")
+FileNotFoundError: Archivo de credenciales no encontrado: client_secrets.json
+2025-03-13 11:22:11,662 - youtube_scraper - ERROR - Archivo de credenciales no encontrado: client_secrets.json
+2025-03-13 11:22:11,665 - youtube_scraper - ERROR - Error en el proceso de autenticación: Archivo de credenciales no encontrado: client_secrets.json
+2025-03-13 11:22:11,666 - youtube_scraper - ERROR - Error en la ejecución principal: Archivo de credenciales no encontrado: client_secrets.json
+Traceback (most recent call last):
+  File "C:\Users\DELL G5\Desktop\scrapper\scrapperv1.py", line 437, in main
+    youtube, youtube_analytics = get_authenticated_services(config)
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\DELL G5\Desktop\scrapper\scrapperv1.py", line 134, in get_authenticated_services
+    raise FileNotFoundError(f"Archivo de credenciales no encontrado: {client_secrets_path}")
+FileNotFoundError: Archivo de credenciales no encontrado: client_secrets.json

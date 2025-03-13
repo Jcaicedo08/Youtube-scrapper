@@ -1,0 +1,20 @@
+{
+    "client_secrets_file": "client_secret_844657651833-kuq37s029uuna9jhtnkji47dcpsb0rc2.apps.googleusercontent.com.json",
+    "token_file": "token.json",
+    "channel_id": "UC9CB5FUOua3iOSGv9UcySUg",
+    "years_to_analyze": 5,
+    "output_file": "youtube_data.json",
+    "scopes": [
+        "https://www.googleapis.com/auth/youtube.readonly",
+        "https://www.googleapis.com/auth/yt-analytics.readonly"
+    ],
+    "api_service_name": {
+        "data": "youtube",
+        "analytics": "youtubeAnalytics"
+    },
+    "api_version": {
+        "data": "v3",
+        "analytics": "v2"
+    },
+    "request_delay": 0.5
+}
